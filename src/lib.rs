@@ -4,10 +4,12 @@ extern crate rand; // TODO not in final version
 extern crate sdl2;
 
 mod backend;
+mod builder;
 mod measurer;
 mod renderer;
 
 pub use backend::Backend;
+pub use builder::Builder;
 pub use measurer::Measurer;
 pub use renderer::Renderer;
 
